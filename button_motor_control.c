@@ -9,11 +9,11 @@
 #define motorPin4  7     // IN4 on the ULN2003 driver
 
 // Define button pins
-const int buttonPinClosed = 1;  // Fully Closed Button connected to PD1 (Arduino Digital Pin 1)
-const int buttonPinHalf = 2;    // Half-Closed Button connected to PD2 (Arduino Digital Pin 2)
-const int buttonPinOpen = 3    // Fully Open Button connected to PD3 (Arduino Digital Pin 3)
-const int buttonPinAuto = 4;    // Light Auto Button connected to PD4 (Arduino Digital Pin 4)
-//const int buttonPinAuto = 5;    // Heat Auto Button connected to PD5 (Arduino Digital Pin 5)  need to add this in somewhere, im not sure where right now
+const int buttonPinClosed = 1;  // Fully Closed Button connected to PD1 (Arduino Digital Pin 1)(Yellow)
+const int buttonPinHalf = 2;    // Half-Closed Button connected to PD2 (Arduino Digital Pin 2)(White)
+const int buttonPinOpen = 3    // Fully Open Button connected to PD3 (Arduino Digital Pin 3)(Red)
+const int buttonPinAuto = 4;    // Light Auto Button connected to PD4 (Arduino Digital Pin 4)(Blue)
+//const int buttonPinAuto = 5;    // Heat Auto Button connected to PD5 (Arduino Digital Pin 5)(Black)  need to add this in somewhere, im not sure where right now
 
 // Define photoresistor pin
 const int pResistor = A0;       // Photoresistor connected to PC0 (Arduino Analog Pin A0)

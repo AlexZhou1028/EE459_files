@@ -5,7 +5,7 @@
 const int stepsPerRevolution = 200;  // for 1.8-degree stepper motor
 
 // Initialize the stepper motor object
-Stepper myStepper(stepsPerRevolution, 8, 9, 10, 11);  // IN1, IN2, IN3, IN4 connected to Arduino pins 8, 9, 10, 11
+Stepper myStepper(stepsPerRevolution, 13, 14, 15, 16);  // IN1, IN2, IN3, IN4 connected to Arduino pins 8, 9, 10, 11
 
 void setup() {
   // Set the speed of the motor (rpm)
